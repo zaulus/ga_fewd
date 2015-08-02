@@ -1,0 +1,157 @@
+body { 
+	background: rgba(0,0,0,.25);
+}
+
+header {
+	border-top: 2px solid #000;
+	padding: 30px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+	color: #000;	
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+header h1 {
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 15px 0;
+}
+
+p {
+	font-family: serif;
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	padding: 15px;
+}
+footer a {
+	display: inline;
+	padding: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	padding: 4px 0 0 0;
+}
+.active-link {
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.porfolio-link {
+
+}
+
+.about-me {
+	margin: 0 50px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 2px;
+    height: 240px;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+.about-photo {
+	border-radius: 60px;
+	width: 250px;
+
+}
+
+.container {
+	background: rgba(255,255,255,1);
+	max-width: 960px;
+	margin: 20px auto;
+	border: 1px solid #000;
+		/*border-width: 5px;
+		border-color: black;
+		border-style: solid;*/
+	padding: 20px;
+	text-align: center;
+}
+
+.recent-exp-section {
+	margin: 5px 40px 0;
+	border-top-style: solid;
+	border-width: 2px;
+}
+
+.rev-section {
+	padding: 0 40px;
+}
+
+.resume-header {
+	background: white;
+	position: relative;
+}
+
+.resume-description {
+	background: white;
+	margin: 5px 0 15px 0;
+	text-align: left;
+	list-style: disc;
+}
+
+.job {
+	font-weight: bold;
+	display: inline;
+	position: absolute;
+	left: 0;
+	font-size: 18px;
+}
+
+.company {
+	font-weight: normal;
+	font-size: 20px;
+	display: inline;
+}
+
+.years {
+	font-weight: lighter;
+	display: inline;
+	position: absolute;
+	right: 0;
+	font-size: 16px;
+}
+
+.secret-link a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.secret-link a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.secret-link a:hover {
+	color: blue;
+}
+/*
+@media screen and (max-width: 300px) {
+    .divider {
+        display: none;
+    }
+}
+*/
+
+.about-image-border {
+	padding: 20px 0 0 20px;
+	background: white;
+		float: right;
+}
