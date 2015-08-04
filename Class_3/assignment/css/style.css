@@ -91,7 +91,12 @@ body {
 }
 
 .benefits {
-  padding
+  padding: 20px 80px;
+  max-width: 450px;
+}
+
+.benefits h1 {
+  background: blue;
 }
 
 .quote-section { 
@@ -144,8 +149,8 @@ footer {
   font-style: bold;
   font-size: 12px;
 
-  margin: 10px 40%;
-  text-align: center;
+  margin: 10px auto;
+  display: table;
 }
 
 .hero {
@@ -153,8 +158,8 @@ footer {
   background-position: center top;
   background-color: rgb(134,141,157);
   background-size: cover;
-  height: 720px;
-  padding: 20px 0 0 80px;
+  height: 600px;
+  padding: 20px 80px;
 }
 
 .testimonial {
