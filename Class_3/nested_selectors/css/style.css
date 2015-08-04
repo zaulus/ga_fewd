@@ -1,0 +1,33 @@
+.italic-example body {
+	color: gray;
+	padding: 30px;
+}
+
+.italic-example h1, h2, h3, h4, h5, h6 { 
+	color: black;
+}
+
+.italic-example em {
+	color: black;
+	font-weight: bold;
+}
+
+.italic-example blockquote {
+	padding: 10px;
+	border-left: 3px solid gray;
+	margin: 0;
+	font-style: italic;
+}
+
+.italic-example blockquote p {
+	margin: 0;
+	padding: 0;
+}
+
+.italic-example blockquote em {
+	font-style: normal;
+	font-weight: inherit;
+	color: inherit;
+}
+
+.bad-example /* work on it */
