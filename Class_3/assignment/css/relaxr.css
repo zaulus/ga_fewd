@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}	
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	background: #f0efef;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+	background: url(../images/header_bg.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;
+	font-size: 24px;
+	padding: 20px;
+	color: rgba(255,255,255,1);
+	text-align: center;
+}
+
+.hero h1 {
+	text-align: left;
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+}
+
+.hero h2 {
+	font-weight: 600;
+}
+
+.getItNow {
+	background: #f9e42e;
+	font-weight: 800;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 20px;
+	margin-top: 150px;
+}
+
+.benefits {
+	background: #033048;
+	color: rgba(255,255,255,.75);
+	font-weight: 300;
+	font-size: 13px;
+	text-align: center;
+	padding: 0 40px;
+}
+
+.benefits .intro {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+.benefits .benefit {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	color: #033048;
+}
+
+.testimony {
+	font-size: 18px;
+	padding: 40px 40px 10px 40px;
+}
+
+.testimony .quote {
+	font-weight: 300;
+	font-style: italic;
+	text-align: justify;
+}
+
+.testimony .quoted {
+	font-weight: 300;
+	text-align: right;
+}
+
+.action {
+	text-align: center;
+	padding: 20px;
+}
+
+.signUp {
+	background: #f9e42e;
+	font-weight: 800;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 20px;
+}
+
+footer {
+	text-align: center;
+	background: #033048;
+	color: rgba(255,255,255,1);
+	height: 200px;
+	padding: 20px;
+}
+
+footer h3 {
+	font-weight: 800;
+	font-size: 24px;
+}
+
+footer p {
+	font-weight: 600;
+	font-size: 9px;
+
+}
+
+.social-media {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.social-media .left {
+	float: left;
+	margin: 10px;
+}
+
+.social-media .right {
+	float: right;
+	margin: 10px;
+}
+
+

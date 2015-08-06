@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: seagreen;
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+
+header {
+	background: white;
+	height: 150px;
+	color: black;
+	padding: 20px;
+}
+
+header nav {
+	float: right;
+}
+
+header nav a {
+	color: white;
+	width: 400px;
+	background: seagreen;
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.hero {
+	height: 300px;
+	background: gray;
+}
+
+.hero:after {
+	background: red;
+	height: 10px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.benefits .benefit {
+	background: white;
+	border: 2px solid orange;
+	float: left;
+	width: 33.333333%;
+	text-align: center;
+	height: 100px;
+	padding: 50px;
+}
+
+.testimonial {
+	height: 200px;
+	text-align: center;
+	padding: 40px;
+}
+
+footer {
+	text-align: center;
+	background: gray;
+
+}

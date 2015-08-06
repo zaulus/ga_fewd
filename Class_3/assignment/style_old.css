@@ -47,20 +47,51 @@ http://www.webtype.com/info/articles/fonts-weights/
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-/******************************************
 
+
+
+
+
+
+
+/******************************************
+/* OLD
 /*******************************************/
 
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
 .container {
-    width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.logo h1 { /* "Relaxr" - Extra bold, 24px */
+  font-weight: 1000;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+  letter-spacing: 1px;
 }
 
 .hero {
   background: url(../images/header_bg.jpg) no-repeat;
+  background-position: center top;
+  background-color: rgb(134,141,157);
   background-size: cover;
   height: 600px;
+  padding: 20px 80px;
 }
+
+
 
 .hero h2 { /* "Get piece of mind with a single tap" - Semibold, 24px */
   font-weight: 300;
@@ -77,14 +108,6 @@ http://www.webtype.com/info/articles/fonts-weights/
   text-align: center;
 }
 
-.logo h1 { /* "Relaxr" - Extra bold, 24px */
-  font-weight: 1000;
-  font-size: 24px;
-  text-align: left;
-  color: white;
-  letter-spacing: 1px;
-}
-
 .getIt { /* "Get it Now" - Extra bold, 14px. 5px border radius */
   background: #f9e42e;
 
@@ -98,17 +121,65 @@ http://www.webtype.com/info/articles/fonts-weights/
   display: table;
 }
 
-.benefits .benefit {
-  float: left;
-  width: 33.333333%;
+.quote-section { 
+  background: blue;
+  padding: 40px;
+  color: white;
+  font-size: 18px;
+}
+
+.quote { /* Light Italic, 18px */
+  text-align: justify;
+  font-style: italic;
+}
+
+.quote-source { /* semibold, 18px */
+  text-align: center;
+  font-weight: bold;
+}
+
+.benefits {
   text-align: center;
 }
 
+.benefit {
+  float: left;
+  height: 150px;
+  background: lightblue;
+  width: 33.33333%;
+  padding: 20px 40px;
+}
+.benefit img {
+  -webkit-filter: blur(12px);
+  background: yellow;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.signUp { /* extra bold, 12px, 5px border radius */
+  background: #033048;
+  color: white;
+
+  border-radius: 5px;
+  padding: 5px 30px;
+
+  font-style: bold;
+  font-size: 12px;
+
+  margin: 10px auto;
+  display: table;
+}
+
+footer {
+  background: rgba(0,0,0,.1);
+  text-align: center;
+  height: 90px;
+}
+
+footer img {
+  margin: 20px 10px 10px 10px;
+  height: 30px;
 
 
-
-
-
-
-
+}
 

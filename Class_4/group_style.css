@@ -1,0 +1,28 @@
+
+.clearfix {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+
+.big-box {
+	float: left;
+	background: teal;
+	height: 200px;
+}
+
+.bottom-box {
+	float: left;
+	background: orange;
+	height: 200px;
+}
+/*
+you need to learn 
+some bootstrap buddy
+
+clearfix
+
+making row divs and stuff
+*/
+
