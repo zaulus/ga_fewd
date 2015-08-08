@@ -13,6 +13,12 @@
 		<!-- fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- Bootstap modal css and js -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 	</head>
 <body>
 
@@ -21,8 +27,55 @@
 		<h1>Relaxr</h1>
 		<h2>Get piece of mind with a single tap</h2>
 		<button class="getItNow">Get It Now</button>
+		<p>Already have an account?
+		<a data-toggle="modal" data-target="#myModal">Sign In</a></p>
 	</div>
 </div>
+
+<!-- Modal -->
+<!-- the modal stuff is interesting, but because
+	I bootstrapped it, I have no idea what's doing
+	what. I believe that I'll need to import the important code (css and js) so that I can actually see what's going on and how to do it better, like making it appear in the middle of the page instead of at the top of the page. -->
+<div class="modal-container">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sign In</h4>
+                </div>
+                <div class="modal-body">
+                    <p>The only work you'll have to do today is to sign in. <br />
+                    Please input your username and password below:</p>
+                    <form>
+                    	<!-- doing it with a table is
+                    	lazy and sucks. I should do it with something more like this example http://jsfiddle.net/85g7Y/ -->
+                    	<table> 
+                    		<tr>
+                    			<td>Username:</td>
+                    			<td><input></td>
+                    		</tr>
+                    		<tr>
+                     			<td>Password:</td>  
+                     			<td><input></td>
+                    		</tr>
+                    	</table>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- end of Modal -->
 
 <div class="benefits clearfix">
 	<div class="intro">
